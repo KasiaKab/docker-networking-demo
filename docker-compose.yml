@@ -14,3 +14,9 @@ services:
       - ME_CONFIG_MONGODB_ADMINUSERNAME=mongoadmin
       - ME_CONFIG_MONGODB_ADMINPASSWORD=password
       - ME_CONFIG_MONGODB_SERVER=mongodb
+  my-docker-app:
+    build: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - mongodb
