@@ -1,5 +1,7 @@
 # Docker Networking Demo
 
+**AWS ECR practice:** This project was also used to practice creating an ECR repository, connecting via AWS CLI, and pushing multiple image versions (latest, 1.1) to a private ECR registry.
+
 A demo project showing how to use a **Dockerfile**, **Docker Compose**, and **Docker networking** to run a Spring Boot app with MongoDB.
 
 ## Tech Stack
