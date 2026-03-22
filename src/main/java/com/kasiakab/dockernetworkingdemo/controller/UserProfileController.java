@@ -32,4 +32,9 @@ public class UserProfileController {
 
         return ResponseEntity.ok(repository.save(profile));
     }
+
+    @GetMapping("/status")
+    public ResponseEntity<String> getStatus() {
+        return ResponseEntity.ok("User-service is up and running!");
+    }
 }
